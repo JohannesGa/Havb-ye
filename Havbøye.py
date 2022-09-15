@@ -8,8 +8,7 @@ st.title('Havbøye')
  
 def start():
     file=open("Havbøye-data.csv","a")
-    file.write(str(response)+",")
     file.flush()
     file.close()
     
-start()
+start(1)
