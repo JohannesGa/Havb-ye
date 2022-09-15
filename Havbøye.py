@@ -11,4 +11,4 @@ def start():
     file.flush()
     file.close()
     
-start(1)
+start()
