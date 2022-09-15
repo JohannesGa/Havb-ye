@@ -10,3 +10,6 @@ def start():
     file.close()
     
 start()
+
+
+Print("Man")
