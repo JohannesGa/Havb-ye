@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 
 st.title('Havbøye')
+st.subheader('Data frå havbøye')
  
 def start():
     file=open("Havbøye-data.csv","a")
@@ -10,6 +11,3 @@ def start():
     file.close()
     
 start()
-
-
-Print("Man")
