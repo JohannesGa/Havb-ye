@@ -6,7 +6,6 @@ st.title('Havbøye')
 st.subheader('Data frå havbøye')
 
 def start():
-    file=open("Havboye-data.csv", "rt" )
-    file.flush()
+    f = open("Havboye-data.csv", "rt" )
     
 start()
