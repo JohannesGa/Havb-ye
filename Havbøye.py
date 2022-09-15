@@ -10,15 +10,15 @@ st.subheader('Data frå havbøye')
 csvfile = 'data.csv'
 delimiter = ','
 
-def open_with_python_csv(Havbøye-data.csv):
+def open_with_python_csv(Havboye-data.csv):
   data = []
-    with open(Havbøye-data.csv, 'r') as filename:
-        reader = csv.reader(Havbøye-data.csv, delimiter=delimiter)
+    with open(Havboye-data.csv, 'r') as filename:
+        reader = csv.reader(Havboye-data.csv, delimiter=delimiter)
 
 
 ''' 
 def start():
-    file=open("Havbøye-data.csv","a")
+    file=open("Havboye-data.csv","a")
     file.flush()
     file.close()
    ''' 
