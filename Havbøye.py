@@ -5,7 +5,4 @@ import numpy as np
 st.title('Havbøye')
 st.subheader('Data frå havbøye')
 
-def start():
-    f = open("Havboye-data.csv", "rt" )
-    
-start()
+
