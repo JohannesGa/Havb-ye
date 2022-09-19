@@ -19,6 +19,8 @@ if upload_file is not None:
    st.header('Header of Dataframe')
    st.write(df.head())
    # Kart 
-   df = pd.DataFrame(
-     np.random.randn(1000, 2) / [50, 50] + [62.343, 5.8488],
-    columns=['62.3433', '5.8488'])
+  df = pd.DataFrame(
+    np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4],
+    columns=['62.3433', '5.8488']) #Lat og Lon
+
+st.map(df)
