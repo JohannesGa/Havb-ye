@@ -2,6 +2,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import csv
 
 # Add a title and intro text
 st.title('Havbøye')
