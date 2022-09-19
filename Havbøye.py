@@ -20,5 +20,4 @@ if upload_file is not None:
    st.write(df.head())
    # Kart 
    df = pd.DataFrame(
-    np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4],
     columns=['62.3433', '5.8488'])
