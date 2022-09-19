@@ -3,8 +3,8 @@ import streamlit as st
 import pandas as pd
 
 # Add a title and intro text
-st.title('Earthquake Data Explorer')
-st.text('This is a web app to allow exploration of Earthquake Data')
+st.title('Havbøye')
+st.text('Informasjon henta frå havbøye')
 # Create file uploader object
 upload_file = st.file_uploader('Upload a file containing earthquake data')
 # Check to see if a file has been uploaded
