@@ -21,7 +21,7 @@ if upload_file is not None:
    st.write(df.head())
    # Kart 
   df = pd.DataFrame(
-    np.random.randn(1000, 2) / [50, 50] + [62.3433, 5.8488],
+    np.random.randn(1, 2) / [50, 50] + [62.3433, 5.8488],
     columns=['lat', 'lon'])
 
 st.map(df)
