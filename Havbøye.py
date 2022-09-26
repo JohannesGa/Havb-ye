@@ -14,11 +14,6 @@ response = response.read()
 print (response)
 '''
 
-url = 'http://sensor.marin.ntnu.no/logs/Ulstein12345.txt'
-request = requests.get(url)
-print(request.text)
-
-
 # Add a title and intro text
 st.title('Havbøye')
 st.text('Informasjon henta frå havbøye')
@@ -36,6 +31,10 @@ if upload_file is not None:
    st.header('Header of Dataframe')
    st.write(df.head())
    
+url = 'http://sensor.marin.ntnu.no/logs/Ulstein12345.txt'
+request = requests.get(url)
+print(request.text)
+
    # Kart 
 df = pd.DataFrame(
    np.random.randn(1, 2) / [50, 50] + [62.3433, 5.8488],
