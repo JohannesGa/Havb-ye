@@ -3,14 +3,21 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import csv
-from urllib.request import urlopen
+import requests
 
+'''
 url = 'http://sensor.marin.ntnu.no/logs/Ulstein12345.txt'
 #urlretrieve(url, 'Ulstein.csv')
 request = Request(url)
 response = urlopen(request)
 response = response.read()
 print (response)
+'''
+
+url = 'http://sensor.marin.ntnu.no/logs/Ulstein12345.txt'
+request = requests.get(url)
+print(request.text)
+
 
 # Add a title and intro text
 st.title('Havbøye')
