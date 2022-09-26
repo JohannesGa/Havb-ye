@@ -18,7 +18,7 @@ print (response)
 st.title('Havbøye')
 st.text('Informasjon henta frå havbøye')
 # Create file uploader object
-upload_file = st.file_uploader('Upload a file containing earthquake data')
+upload_file = st.file_uploader('Last opp data om Havbøya')
 # Check to see if a file has been uploaded
 if upload_file is not None:
    # If it has then do the following:
