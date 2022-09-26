@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import csv
-from urllib_request import urlopen, Request
+from urllib.request import urlopen
 
 url = 'http://sensor.marin.ntnu.no/logs/Ulstein12345.txt'
 urlretrieve(url, 'Ulstein.csv')
