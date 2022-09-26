@@ -31,7 +31,7 @@ if upload_file is not None:
    st.header('Header of Dataframe')
    st.write(df.head())
    
-url = 'http://sensor.marin.ntnu.no/logs/Ulstein12345.txt'
+url = 'http://sensor.marin.ntnu.no/logs/Gruppe15.csv'
 request = requests.get(url)
 print(request.text)
 
