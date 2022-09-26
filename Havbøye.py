@@ -6,7 +6,7 @@ import csv
 from urllib.request import urlopen
 
 url = 'http://sensor.marin.ntnu.no/logs/Ulstein12345.txt'
-urlretrieve(url, 'Ulstein.csv')
+#urlretrieve(url, 'Ulstein.csv')
 request = Request(url)
 response = urlopen(request)
 response = response.read()
