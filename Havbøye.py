@@ -30,11 +30,12 @@ if upload_file is not None:
    # Create a section for the dataframe header
    st.header('Header of Dataframe')
    st.write(df.head())
-   
+
+'''   
 url = 'http://sensor.marin.ntnu.no/logs/Gruppe15.csv'
 request = requests.get(url)
 print(request.text)
-
+'''
 '''
    # Kart 
 df = pd.DataFrame(
