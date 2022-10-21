@@ -20,6 +20,8 @@ st.text('Informasjon henta frå havbøye')
 # Create file uploader object
 upload_file = st.file_uploader('Last opp data om Havbøya')
 # Check to see if a file has been uploaded
+
+'''
 if upload_file is not None:
    # If it has then do the following:
    # Read the file to a dataframe using pandas
@@ -30,7 +32,7 @@ if upload_file is not None:
    # Create a section for the dataframe header
    st.header('Header of Dataframe')
    st.write(df.head())
-
+'''
 '''   
 url = 'http://sensor.marin.ntnu.no/logs/Gruppe15.csv'
 request = requests.get(url)
@@ -52,7 +54,7 @@ headers = []
 
 df = pd.read_csv("http://sensor.marin.ntnu.no/logs/Ulstein05_10.txt", names = ['filename', 'power','loc', 'time', 'lat', 'long','a1','a2','a3','a4','a5','a6','a7','a8','a9','a10','a11','a12','a13'])
 st.header("Bar_chart_test")
-st.bar_chart(df[['time','lat','long']])
+#st.bar_chart(df[['time','lat','long']])
 st.dataframe(df)
 
 
@@ -68,7 +70,7 @@ headers = []
 
 df = pd.read_csv("http://sensor.marin.ntnu.no/logs/Ulstein17_10.txt", names = ['filename', 'power','loc', 'time', 'lat', 'lon','a1','a2','a3','a4','a5','a6','a7','a8','a9','a10','a11','a12','a13'])
 st.header("Bar_chart_test")
-st.bar_chart(df[['lat','lon']])
+#st.bar_chart(df[['lat','lon']])
 st.dataframe(df)
 
 
