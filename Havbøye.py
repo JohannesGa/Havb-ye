@@ -7,7 +7,7 @@ import requests
 
 '''
 url = 'http://sensor.marin.ntnu.no/logs/UlsteinGr4.txt  '
-#urlretrieve(url, 'Ulstein.csv')
+urlretrieve(url, 'Ulstein.csv')
 request = Request(url)
 response = urlopen(request)
 response = response.read()
