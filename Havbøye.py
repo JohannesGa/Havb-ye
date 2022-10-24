@@ -5,6 +5,7 @@ import numpy as np
 import requests
 
 st.balloons()
+st.snow()
 
 headers = []
 
