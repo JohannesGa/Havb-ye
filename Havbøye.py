@@ -5,15 +5,6 @@ import numpy as np
 import csv
 import requests
 
-'''
-url = 'http://sensor.marin.ntnu.no/logs/Ulstein12345.txt'
-#urlretrieve(url, 'Ulstein.csv')
-request = Request(url)
-response = urlopen(request)
-response = response.read()
-print (response)
-'''
-
 # Add a title and intro text
 st.title('Havbøye')
 st.text('Informasjon henta frå havbøye')
