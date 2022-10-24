@@ -31,7 +31,7 @@ headers = []
 
 
 
-df = pd.read_csv("http://sensor.marin.ntnu.no/logs/UlsteinGr4.txt", names = ['filename', 'power','loc', 'time', 'lat', 'lon','a1','a2','a3','a4','a5','a6','a7','a8','a9','a10','a11','a12','a13'])
+df = pd.read_csv("http://sensor.marin.ntnu.no/logs/UlsteinGr4.txt", names = ['filename', 'Power','Strt loc', 'Time', 'Lat', 'Lon','Altitude','Speed','Course','Fix mode','REserved 1','HDOP','PDOP','VDOP','Reserved 2','GPS','GNSS','GLONASS','Reserved 3'])
 st.header("Bar_chart_test")
 st.bar_chart(df[['lat','lon']])
 st.dataframe(df)
