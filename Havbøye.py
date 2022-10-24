@@ -4,6 +4,8 @@ import pandas as pd
 import numpy as np
 import requests
 
+st.balloons()
+
 headers = []
 
 st.title('Havbøye prosjekt')
