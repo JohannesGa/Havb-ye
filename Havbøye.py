@@ -15,5 +15,3 @@ st.header('Informasjon om bøye 4')
 st.dataframe(df)
 
 st.map(df)
-
-st.text("Test")
