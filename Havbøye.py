@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import requests
-from bokeh.models.widgets import Div
+from link_button import link_button
 
 
 headers = []
@@ -20,12 +20,9 @@ st.header('Informasjon om bøye 1')
 st.dataframe(df1)
 st.map(df1)
 
-if st.button('Data fra maritim'):
-    js = "window.open('http://sensor.marin.ntnu.no/logs/UlsteinB1.txt')"  # New tab or window
-    js = "window.location.href = 'https://www.streamlit.io/'"  # Current tab
-    html = '<img src onerror="{}">'.format(js)
-    div = Div(text=html)
-    st.bokeh_chart(div)
+link_button('Data fra maritim', 'http://sensor.marin.ntnu.no/logs/UlsteinB1.txt')
+
+
 
 st.header('Informasjon om bøye 2')
 st.dataframe(df2)
