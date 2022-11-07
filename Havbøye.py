@@ -8,7 +8,7 @@ headers = []
 
 st.title('Havbøye prosjekt')
 
-df1 = pd.read_csv("http://sensor.marin.ntnu.no/logs/UlsteinB1.txt", names = ['filename', 'power','location', 'time', 'lat', 'lon','Altitude','Speed','Course','Fix Mode','Reserved1','HDOP','PDOP','VDOP','Reserved2','GPS','GNSS','GLONASS','Reserved3','Temperature'])
+df1 = pd.read_csv("http://sensor.marin.ntnu.no/logs/UlsteinB5T1.txt", names = ['filename', 'power','location', 'time', 'lat', 'lon','Altitude','Speed','Course','Fix Mode','Reserved1','HDOP','PDOP','VDOP','Reserved2','GPS','GNSS','GLONASS','Reserved3','Temperature'])
 df2 = pd.read_csv("http://sensor.marin.ntnu.no/logs/UlsteinB2.txt", names = ['filename', 'power','location', 'time', 'lat', 'lon','Altitude','Speed','Course','Fix Mode','Reserved1','HDOP','PDOP','VDOP','Reserved2','GPS','GNSS','GLONASS','Reserved3','Temperature'])
 df3 = pd.read_csv("http://sensor.marin.ntnu.no/logs/UlsteinB3.txt", names = ['filename', 'power','location', 'time', 'lat', 'lon','Altitude','Speed','Course','Fix Mode','Reserved1','HDOP','PDOP','VDOP','Reserved2','GPS','GNSS','GLONASS','Reserved3','Temperature'])
 df4 = pd.read_csv("http://sensor.marin.ntnu.no/logs/UlsteinB4.txt", names = ['filename', 'power','location', 'time', 'lat', 'lon','Altitude','Speed','Course','Fix Mode','Reserved1','HDOP','PDOP','VDOP','Reserved2','GPS','GNSS','GLONASS','Reserved3','Temperature'])
