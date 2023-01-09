@@ -17,7 +17,7 @@ df5 = pd.read_csv("http://sensor.marin.ntnu.no/logs/UlsteinB5T1.txt", names = ['
 st.header('Informasjon om bøye 1')
 st.dataframe(df1)
 
-st.map(df1)
+st.map(df1, height=500)
 
 st.header('Informasjon om bøye 2')
 st.dataframe(df2)
