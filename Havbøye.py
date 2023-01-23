@@ -22,7 +22,7 @@ st.map(df1)
 st.header('Informasjon om bøye 2')
 st.dataframe(df2)
 
-st.map(df2))
+st.map(df2)
 
 
 st.header('Informasjon om bøye 3')
