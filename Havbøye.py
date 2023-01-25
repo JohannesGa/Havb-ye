@@ -30,12 +30,12 @@ st.dataframe(df3)
 
 st.map(df3)
 
-st.header('Informasjon om bøye 4')
-st.dataframe(df4)
+#st.header('Informasjon om bøye 4')
+#st.dataframe(df4)
 
-st.map(df4)
+#st.map(df4)
 
-st.header('Informasjon om bøye 5')
-st.dataframe(df5)
+#st.header('Informasjon om bøye 5')
+#st.dataframe(df5)
 
-st.map(df5)
+#st.map(df5)
